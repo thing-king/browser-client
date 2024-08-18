@@ -7,12 +7,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node examples/usage.js",
-    "update": "npm i @thing-king/metaform && npm i"
+    "update": "npm i @thing-king/metaform && npm i",
+    "push": "git commit -am 'Changes!' && npm version patch && git push && npm publish"
   },
   "keywords": [],
   "author": "thingking.org",
   "license": "ISC",
   "dependencies": {
-    "@thing-king/metaform": "^1.0.43"
+    "@thing-king/metaform": "^1.0.47"
   }
 }
