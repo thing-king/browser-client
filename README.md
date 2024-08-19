@@ -15,8 +15,8 @@ import bClient from "@thing-king/browser-client";
 
 (async () => {
     const client = bClient(
-        // leave blank for local development
-        "https://browsers.thingking.org?access_token=xiIeU8FSqs-BmFQ33J0tA-Xx8vvx0YJ4-4ReVVMEEfS-M015GQZU"
+        // access_token
+        "xiIeU8FSqs-BmFQ33J0tA-Xx8vvx0YJ4-4ReVVMEEfS-M015GQZU"
     );
     await client.start();
 

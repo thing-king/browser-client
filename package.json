@@ -14,6 +14,6 @@
   "author": "thingking.org",
   "license": "ISC",
   "dependencies": {
-    "@thing-king/metaform": "^1.0.47"
+    "@thing-king/metaform": "^1.0.50"
   }
 }
